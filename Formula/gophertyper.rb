@@ -1,30 +1,30 @@
 class Gophertyper< Formula
   desc "Homebrew tap for gophertyper"
   homepage "https://github.com/mikegetz/gophertyper"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/mikegetz/gophertyper/releases/download/v1.0.2/gophertyper-v1.0.2-darwin-amd64"
-      sha256 "96a83f290c3502a6e450a8c57bf02433b8921c286532514c746e5f2a7c260743"
+      url "https://github.com/mikegetz/gophertyper/releases/download/v1.0.3/gophertyper-v1.0.3-darwin-amd64"
+      sha256 "6e88e62ca41c0b3c0e4d3b4e35439f28ba86b5b18ad4c4f34201078efdcdeb4a"
     end
 
     on_arm do
-      url "https://github.com/mikegetz/gophertyper/releases/download/v1.0.2/gophertyper-v1.0.2-darwin-arm64"
-      sha256 "40d8d8d5d9cfde87c6a0dcf45ddffaca7a41385b6cfa29ab4eb8244db76e2adb"
+      url "https://github.com/mikegetz/gophertyper/releases/download/v1.0.3/gophertyper-v1.0.3-darwin-arm64"
+      sha256 "55323b795069ede880c7cc81dd8e8f647f4179b16b82c82f351d0135a2c46739"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mikegetz/gophertyper/releases/download/v1.0.2/gophertyper-v1.0.2-linux-amd64"
-      sha256 "05b0f85eb8365383b1af24e4d18ea359a06c8d6f8944a73c8c554075c8d95bd1"
+      url "https://github.com/mikegetz/gophertyper/releases/download/v1.0.3/gophertyper-v1.0.3-linux-amd64"
+      sha256 "688097a44e1069daf287f2fd7dc53ec3cc5485d53fecd16812a72ebd2fbea9f5"
     end
 
     on_arm do
-      url "https://github.com/mikegetz/gophertyper/releases/download/v1.0.2/gophertyper-v1.0.2-linux-arm64"
-      sha256 "f67804d4fdc3c3c6f5719a9d148912c84814dec29a3eb684960247bc6d6a68db"
+      url "https://github.com/mikegetz/gophertyper/releases/download/v1.0.3/gophertyper-v1.0.3-linux-arm64"
+      sha256 "008b2d48580eba9d9337f6af8c97fff83a951f2e8f8f71823455db5b96102bbb"
     end
   end
 
